@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<section class="section {{ .Type }}">
+    
+    <div class="container">
+    
+        <div class="row">
+            {{ range .Data.Pages.ByTitle }}
+          <div class="col-md-4 px-3 mb-4">
+            <div class="card h-100 shadow">
+                <img src="{{ .Params.Image }}" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{ .Title }}</h5>   
+                <br> 
+
+                <h6 class="card-subtitle mb-4 text-muted">Coordinador: {{ .Params.coordinator }}</h6>
+
+                <h6 class="card-subtitle mb-4 text-muted">Úbicación: {{ .Params.location }}</h6>
+                
+                </div>
+                <center>
+                  <a href="{{ .Params.Link }}" target="_blank">
+                    <button type="button" style="align-items: center; border-radius: 25px;" class="btn btn-success col-md-10 px-3">Conocer más</button>
+                 </a>
+            </center>
+            <br>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+
+    </div>
+
+
+
+  </section>
+{{ end }}

@@ -1,0 +1,103 @@
+
+######################## default configuration ####################
+baseURL = "http://icphublatam.org//"
+title = "Nativo Crypto"
+enableRobotsTXT = true
+DefaultContentLanguage = "es"
+
+theme = "dd4w"
+# post pagination
+paginate = "8"
+
+# Este es el tag normal de analytics
+# googleAnalytics = ""
+# Este es el de google tag manager
+googleAnalytics = ""
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+speaker = "speakers"
+
+# output
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "/plugins/bootstrap/css/bootstrap.min.css"
+[[params.plugins.css]]
+link = "/plugins/themefisher-font/themefisher-font.min.css"
+[[params.plugins.css]]
+link = "https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.css"
+
+
+# JS Plugins
+[[params.plugins.js]]
+link = "/plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "/plugins/bootstrap/js/bootstrap.min.js"
+[[params.plugins.js]]
+link="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.js"
+[[params.plugins.js]]
+link="https://kit.fontawesome.com/a6f10b653b.js"
+
+############################## navigation ###############################
+[menu]
+
+
+  #[[menu.main]]
+  #name = "FAQ"
+  #URL = "/faq"
+  #weight = 6
+
+
+
+#################### default parameters ################################
+[params]
+logo = "/images/logo-monochrome.svg"
+home = "Home"
+
+# Meta data
+description = """"""
+images = ["/images/blog/nativo.jpg"]
+twitter_user = "RevistaSG"
+email = "eventos@sg.com.mx"
+author = "Software Guru"
+
+start_date = "2023-07-27T09:00-06:00"
+end_date = "2023-07-27T17:00-06:00"
+
+
+
+disclaimer = """"""
+
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = false
+label = "LIVE"
+link = ""
+
+
+############################# social icon ############################
+
+
+
+
+
+
+
+
+

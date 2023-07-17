@@ -1,0 +1,64 @@
+############################# banner ################################
+banner:
+  enable : true
+  title : "DEV DAY 4 WOMEN"
+  img: "/images/code4dei-logo.png" 
+  date_time: "17 y 18 de Mayo de 2023"
+  venue : "Mujeres que desarrollan Software Grandioso"
+  where : "17 y 18 de Mayo de 2023 | Edicion Online | Gratuito"
+  
+  button1:
+    enable : false
+    label : "Manda tu propuesta"
+    link : "https://convoca.dev/dev-day-4-women-mayo-2023/cfp"
+  button2:
+    enable : false
+    label : "Registrate"
+    link : "https://us.airmeet.com/e/442f8b50-ccef-11ed-a75b-a1f22f0d858d"
+############################## Event ##############################
+event_info:
+  enable : true
+  title : "DOS DÍAS DE APRENDIZAJE PARA DESARROLLADORAS"
+
+  description : >
+    Dev Day 4 Women esta dirigido a mujeres involucradas en el desarrollo de software.
+   
+  description1: >
+
+    Nuestro propósito es desarrollar una comunidad tecnológica donde las mujeres puedan aprender, inspirarse, conectarse y alentarse mutuamente para continuar sus carreras STEM, a través de conferencias técnicas, pláticas sobre desarrollo profesional, experiencias de mujeres en la industria y actividades de networking.
+
+  description2: >
+
+    A lo largo de nueve años DD4W se ha convertido en la conferencia líder para mujeres en Latinoamérica. Cada año tenemos dos ediciones y la primera edición del año se realizará el 17 y 18 de mayo 2023.
+    
+
+   
+  #presented_by: Presentado por
+  #image : "/images/logos/accenture-logo.png"
+
+
+####################### Speakers #############################
+speakers:
+  enable : false
+  title : "Keynote speakers"
+
+####################### Schedule #############################
+schedule:
+  enable : true
+  # schedule data comes from "schedule.yml" file
+
+####################### pricing #############################
+pricing:
+  enable : true
+  # pricing data comes from "pricing.yml" file
+
+
+############################### Blog ######################################
+blog:
+  enable : true
+  title : "Noticias recientes"
+  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  # blog content comes from "content/blog" folder
+
+
+

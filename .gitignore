@@ -1,0 +1,10 @@
+public/
+resources
+.firebase/
+firebase-debug.log
+*Zone.Identifier
+themes/vixcon-hugo
+oldlayouts/
+.firebaserc
+.DS_Store
+tmp

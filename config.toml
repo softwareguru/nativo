@@ -1,6 +1,6 @@
 
 ######################## default configuration ####################
-baseURL = "http://icphublatam.org//"
+baseURL = "https://code4dei.com"
 title = "Nativo Crypto"
 enableRobotsTXT = true
 DefaultContentLanguage = "es"

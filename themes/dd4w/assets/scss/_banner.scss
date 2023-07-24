@@ -1,0 +1,40 @@
+ .banner {
+  background-color: #F6F6D6;
+	background-size: cover;
+	background-position: center;
+	height: 91%;
+	justify-content: center;
+	text-align: center;
+  display: flex;
+  align-items: center;
+
+
+  @include desktop {
+		height: 80%;
+	}
+
+  @include tablet {
+    margin-top: 25px;
+		height: 70%;
+	}
+	@include mobile {
+    margin-top: 35px;
+		height: 60%;
+
+	}
+
+ }
+
+
+
+ .dates{
+  background-image: url(/images/background-degradado.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.dates p{
+  color: white;
+  font-size: 1.2em;
+}

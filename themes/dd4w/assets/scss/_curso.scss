@@ -1,0 +1,52 @@
+
+.curso{
+    margin-top: -180px;
+}
+
+.sub-curso{
+    color: #FFF;
+font-family: Hubot-Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; /* 137.5% */
+letter-spacing: 0.64px;
+@media (max-width:1309) {
+    font-size: 20px;
+	  }
+  
+	@media (max-width:992px) {
+        font-size: 28px;
+        line-height: 30px;
+	}
+  
+	@media (max-width:400px) {
+    font-size: 25px;
+	}
+  }
+
+  .sig-curso{
+    color: rgba(255, 255, 255, 0.60);
+font-family: Hubot-Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; /* 137.5% */
+letter-spacing: 0.64px;
+width: 1050px;
+@media (max-width:1309) {
+    font-size: 80px;
+    width: auto;
+	  }
+  
+	@media (max-width:992px) {
+    font-size: 28px;
+    line-height: 30px;
+    width: auto;
+	}
+  
+	@media (max-width:400px) {
+    font-size: 20px;
+    width: auto;
+	}
+  }

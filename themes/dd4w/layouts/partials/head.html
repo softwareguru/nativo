@@ -31,8 +31,64 @@
   <link rel="stylesheet" href='{{ $styles.Permalink | relURL }}?v={{ now.Format "200601021504" }}' media="screen">
   
   {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="shortcut icon" href="" type="image/x-icon">
-  <link rel="icon" href="" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
 
+  <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": {{ .Site.Title }},
+      "startDate": {{ .Site.Params.start_date }},
+      "endDate": {{ .Site.Params.end_date }},
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": {{ .Site.BaseURL }}
+      },
+      "image": [
+        {{ .Site.Params.image | absURL }}
+      ],
+      "description": {{ .Site.Params.description }},
+      "offers": {
+        "@type": "Offer",
+        "url": {{ with .Site.Params.navigation_button.link }}{{ . | absURL }}{{ end }},
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2021-01-01T12:00"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "SG 4 Women"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Software Guru",
+        "url": "https://devrel.sg.com.mx"
+      }
+    }
+  </script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '751196002263325');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=751196002263325&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
 
 </head>

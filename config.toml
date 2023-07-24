@@ -1,7 +1,7 @@
 
 ######################## default configuration ####################
 baseURL = "https://code4dei.com"
-title = "Nativo Crypto"
+title = "Nativo Cripto"
 enableRobotsTXT = true
 DefaultContentLanguage = "es"
 
@@ -66,7 +66,7 @@ home = "Home"
 
 # Meta data
 description = """"""
-images = ["/images/blog/nativo.jpg"]
+images = ["/images/blog/.jpg"]
 twitter_user = "RevistaSG"
 email = "eventos@sg.com.mx"
 author = "Software Guru"
@@ -86,12 +86,13 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = false
-label = "LIVE"
-link = ""
+enable = true
+label = "Unirte ahora"
+link = "#"
 
 
 ############################# social icon ############################
+
 
 
 

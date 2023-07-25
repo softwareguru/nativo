@@ -1,0 +1,109 @@
+
+
+.seccion-comenzar{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 24px;
+    padding: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: var(--linear-blue-magenta, linear-gradient(135deg, #5665F9 0%, #FF52D2 100%));
+    margin-bottom: 340px;
+
+    @media (max-width:480px) {
+        margin-top: 160px;
+        margin-bottom: 140px;
+          }
+}
+
+.contenedor-comenzar{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+        grid-gap: 10px;  
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        margin-left: -120px;
+    
+      
+        @media (max-width:1045px) {
+            margin-left: -120px;
+            grid-template-columns: 1fr;
+              }
+      
+              @media (max-width:992px) {
+                margin-left: -40px;
+                grid-template-columns: 1fr;
+                  }
+                  @media (max-width:642px) {
+                    margin-left: -60px;
+                    grid-template-columns: 1fr;
+                      }
+      }
+
+
+.titulo-comenzar{
+    background: var(--linear-blue-magenta, linear-gradient(135deg, #ffffff 0%, #ffffff 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Hubot-Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px; /* 100% */
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+
+
+.titulo-registro{
+    color: rgba(255, 255, 255, 0.60);
+    width: 678px;
+    font-family: Hubot-Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px; /* 137.5% */
+
+    @media (max-width:1330px) {
+        width: auto;
+          }
+
+          @media (max-width:642px) {
+                font-size: 25px;
+                line-height: 24px;
+              }
+
+    
+
+}
+
+.comenzar-boton{
+
+    padding: 35px 59px 29px 59px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 99px;
+    color: white;
+    font-size: 2.0em;
+    border: 3px solid rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.20);
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.10);
+
+    &:hover {
+        color: rgba(255, 255, 255, 0.60);
+        }
+    
+
+    @media (max-width:992px) {
+
+        padding: 15px 25px 15px 25px;
+
+          }
+
+          @media (max-width:374px) {
+            font-size: 1.4em;
+            padding: 15px 25px 15px 25px;
+    
+              }
+}
+
+

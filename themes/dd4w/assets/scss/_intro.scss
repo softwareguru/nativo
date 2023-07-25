@@ -92,12 +92,18 @@ margin-bottom: 105px;
         line-height: 24px;
 	}
 
+	
+
 	@media (max-width:490px) {
-		margin-top: 125px;
+		margin-top: 115px;
 		font-size: 20px;
       line-height: 20px;
+	  }
 
-
+	  @media (max-width:414px) {
+		margin-top: 65px;
+		font-size: 20px;
+      line-height: 20px;
 	  }
 	
   }

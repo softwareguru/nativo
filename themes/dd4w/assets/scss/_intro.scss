@@ -151,3 +151,20 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 125% */
   }
+
+  .entrevista-into{
+
+
+	@media (max-width:992px) {
+		margin-bottom: 200px;
+	  }
+
+	  @media (max-width:684px) {
+		margin-bottom: 180px;
+	  }
+
+	  
+	  @media (max-width:583px) {
+		margin-bottom: 120px;
+	  }
+  }

@@ -1,7 +1,52 @@
 
-.curso{
-    margin-top: -180px;
+.seccion-curso{
+    margin-top: 80px;
+    margin-bottom: 85px;
+
+    @media (max-width:480px) {
+        margin-bottom: -85px;;
+	}
 }
+
+
+.contenedor-curso{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    grid-gap: 10px;  
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin-left: -120px;
+
+  
+    @media (max-width:1045px) {
+        margin-left: -120px;
+        grid-template-columns: 1fr;
+          }
+  
+          @media (max-width:992px) {
+            margin-left: -40px;
+            grid-template-columns: 1fr;
+              }
+              @media (max-width:642px) {
+                margin-left: -60px;
+                grid-template-columns: 1fr;
+                  }
+  }
+
+  .titulo-curso{
+    background: var(--linear-blue-magenta, linear-gradient(135deg, #ffffff 0%, #ffffff 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Hubot-Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px; /* 100% */
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+
 
 .sub-curso{
     color: #FFF;
@@ -34,8 +79,8 @@ font-weight: 600;
 line-height: 44px; /* 137.5% */
 letter-spacing: 0.64px;
 width: 1050px;
-@media (max-width:1309) {
-    font-size: 80px;
+@media (max-width:1309px) {
+    font-size: 28px;
     width: auto;
 	  }
   
@@ -49,4 +94,47 @@ width: 1050px;
     font-size: 20px;
     width: auto;
 	}
+  }
+
+
+  .demo-day{
+    border-radius: 24px;
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    background: var(--radial-blackz, radial-gradient(317.05% 141.42% at 0.00% 0%, #2C2B31 0%, #131318 100%));
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px
+  }
+
+  .titulo-secciones-demo{
+    border-radius: 24px 0px 24px 24px;
+    background: radial-gradient(69.90% 120.56% at 50.00% -20.56%, #5CF 0%, rgba(41, 171, 226, 0.00) 100%); 
+    color: #FFF;
+    font-family: Hubot-Sans;
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 51px; 
+    width: 800px;
+    height: 214px;
+    padding: 54px 62px;
+    justify-content: center;
+    opacity: 0.8;
+
+    @media (max-width:1300px) {
+        font-size: 80px;
+        width: auto;
+        }
+      
+    @media (max-width:1118px) {
+        font-size: 68px;
+        line-height: 30px;
+        width: auto;
+        }
+      
+    @media (max-width:573px) {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        width: auto;
+        }
   }

@@ -1,13 +1,13 @@
-// Seccion "DEMO"
+// Seccion "DEMO" y "proceso" en fondo para items
 
-.seccion-demo{
+.seccion-demo,.seccion-proceso{
     margin-top: -240px; 
     border-radius: 54px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 50px;
     border: 0px solid rgba(255, 255, 255, 0.10);
-    background: var(--radial-blackz, radial-gradient(317.05% 141.42% at 0.00% 0%, #2C2B31 0%, #131318 100%));
+    background: var(--radial-blackz, radial-gradient(317.05% 141.42% at 0.00% 0%, #2C2B31 0%, #1313189a 100%));
 
     @include mobile {
         margin-top: -90px; 
@@ -33,6 +33,17 @@
   }
   }
 
+
+  .demo, .proceso{
+    margin-left: -65px;
+    @include tablet {
+      margin-left: -50px;
+    }
+    
+    @include mobile {
+      margin-left: -50px;
+    }
+  }
   
   
   

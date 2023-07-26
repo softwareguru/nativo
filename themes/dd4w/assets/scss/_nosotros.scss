@@ -1,0 +1,106 @@
+.sub-nosotros{
+    color: #FFF;
+    font-family: Hubot-Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    width: 714px;
+          @media (max-width:1309) {
+            font-size: 80px;
+            width: auto;
+              }
+          
+            @media (max-width:992px) {
+            font-size: 35px;
+            line-height: 34px;
+            width: auto;
+            }
+          
+            @media (max-width:400px) {
+            font-size: 23px;
+            line-height: 24px;
+            width: auto;
+            }
+}
+
+.contenedor-nosotros{
+
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 40px;
+      justify-content: space-between;
+      justify-items: center;
+      align-items: center;
+      
+      @include tablet {
+        grid-template-columns: 1fr 1fr ;
+      }
+      
+      @include mobile {
+        grid-template-columns: 1fr;
+      }
+
+
+}
+
+.contenedor-nosotros-item{
+    border-radius: 24px;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: #37333D;
+}
+
+.titulo-nosotros{
+    margin-top: 30px;
+    color: #FFF;
+    font-feature-settings: 'ss04' on;
+    font-family: Hubot-Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    width: 300px;
+
+    @media (max-width:1377px) {
+
+        width: 150px;
+          }
+      
+        @media (max-width:992px) {
+
+            width: 150px;
+        }
+      
+        @media (max-width:400px) {
+
+            width: 250px;
+        }
+}
+
+.designacion-nosotros{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Hubot-Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    width: 250px;
+
+    @media (max-width:1377px) {
+
+        width: 150px;
+          }
+      
+        @media (max-width:992px) {
+
+            width: 150px;
+        }
+      
+        @media (max-width:400px) {
+
+            width: 250px;
+        }
+}

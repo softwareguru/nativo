@@ -7,6 +7,7 @@
 .comenzar,
 .demo,
 .proceso,
+.embajadores,
 .amigos,
 .nosotros,
 .faq{
@@ -92,6 +93,24 @@
     line-height: 0px; 
 	}
     }
+
+
+    // Seccion "DEMO" y "proceso" en fondo para items
+
+.seccion-demo,.seccion-proceso, .seccion-embajaroder{
+  margin-top: -240px; 
+  border-radius: 54px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 50px;
+  border: 0px solid rgba(255, 255, 255, 0.10);
+  background: var(--radial-blackz, radial-gradient(317.05% 141.42% at 0.00% 0%, #2C2B31 0%, #1313189a 100%));
+
+  @include mobile {
+      margin-top: -90px; 
+    }
+
+}
 
     // /estilos generales
 

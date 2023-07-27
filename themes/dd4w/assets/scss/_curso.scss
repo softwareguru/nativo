@@ -34,28 +34,12 @@
                   }
   }
 
-  .titulo-curso{
-    background: var(--linear-blue-magenta, linear-gradient(135deg, #ffffff 0%, #ffffff 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Hubot-Sans;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 20px; /* 100% */
-    letter-spacing: 3.6px;
-    text-transform: uppercase;
-}
-
 
 .sub-curso{
     color: #FFF;
-font-family: Hubot-Sans;
 font-size: 32px;
-font-style: normal;
 font-weight: 600;
 line-height: 44px; /* 137.5% */
-letter-spacing: 0.64px;
 @media (max-width:1309) {
     font-size: 20px;
 	  }
@@ -72,12 +56,9 @@ letter-spacing: 0.64px;
 
   .sig-curso{
     color: rgba(255, 255, 255, 0.60);
-font-family: Hubot-Sans;
 font-size: 32px;
-font-style: normal;
 font-weight: 600;
 line-height: 44px; /* 137.5% */
-letter-spacing: 0.64px;
 width: 1050px;
 @media (max-width:1309px) {
     font-size: 28px;
@@ -110,14 +91,12 @@ width: 1050px;
     border-radius: 24px 0px 24px 24px;
     background: radial-gradient(69.90% 120.56% at 50.00% -20.56%, #5CF 0%, rgba(41, 171, 226, 0.00) 100%); 
     color: #FFF;
-    font-family: Hubot-Sans;
     font-size: 51px;
     font-weight: 700;
     line-height: 51px; 
     width: 800px;
     height: 214px;
     padding: 54px 62px;
-    justify-content: center;
     opacity: 0.8;
 
     @media (max-width:1300px) {
@@ -141,7 +120,6 @@ width: 1050px;
 
   .subtitulo-secciones-demo{
     color: #FFF;
-    font-family: Hubot-Sans;
     font-size: 24px;
     font-weight: 500;
     line-height: 30px;

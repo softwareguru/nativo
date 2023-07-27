@@ -1,17 +1,36 @@
 @font-face {
-  font-family: "Hubot-Sans-Regular";
-  src: url("/fonts/hubot-sans/Hubot-Sans-Regular.otf");
+  font-family: "HubotSans";
+  src: url("/fonts/hubot-sans/Hubot-Sans-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
 }
-
 
 @font-face {
-  font-family: "Hubot-Sans-Bold";
-  src: url("/fonts/hubot-sans/Hubot-Sans-Bold.otf");
+  font-family: "HubotSans";
+  src: url("/fonts/hubot-sans/Hubot-Sans-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: "HubotSans";
+  src: url("/fonts/hubot-sans/Hubot-Sans-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
 
-h1{
-  font-family: "Hubot-Sans-Bold";
+@font-face {
+  font-family: "HubotSans";
+  src: url("/fonts/hubot-sans/Hubot-Sans-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HubotSans";
+  src: url("/fonts/hubot-sans/Hubot-Sans-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
 }
 
 body{

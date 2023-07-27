@@ -124,15 +124,14 @@ section.hero {
 
   .hero-tagline{
 	color: #FFF;
-	font-feature-settings: 'ss04' on;
 	font-size: 96px;
 	line-height: 80%; /* 76.8px */
 	letter-spacing: -0.96px;
 	text-transform: uppercase;
+	font-weight: 800; 
 	  
 	@media (max-width:1300px) {
-		font-size: 80px;
-		
+		font-size: 80px;		
 	  }
   
 	@media (max-width:992px) {
@@ -156,9 +155,7 @@ section.hero {
 	width: 872px;
 	color: rgba(255, 255, 255, 0.60);
 	font-feature-settings: 'ss04' on;
-	font-family: Hubot-Sans;
 	font-size: 96px;
-	font-style: normal;
 	font-weight: 800;
 	line-height: 80%; /* 76.8px */
 	letter-spacing: -0.96px;
@@ -210,3 +207,17 @@ section.hero {
   #button-hero1, #button-hero2 {
 	font-size: 1.0em;
   }
+
+a.gitbook-link {
+	color: #FFF; 
+	font-size: 24px; 
+	text-decoration-line: underline;
+	font-weight: 500;
+  }
+
+.hero-button {
+	padding: 18px 32px; 
+	background-color:#ffffff; 
+	font-weight: 600; 
+	color: black !important;
+}

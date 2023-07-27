@@ -26,14 +26,14 @@
   }
   
     .titulo{
-      background: var(--linear-blue-magenta, linear-gradient(135deg, #5665F9 0%, #FF52D2 100%));
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-family: Hubot-Sans;
+    background-image: linear-gradient(rgb(86, 101, 249), rgb(255, 82, 210));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
       font-size: 20px;
       font-weight: 600;
-      line-height: 20px;
       letter-spacing: 3.6px;
       text-transform: uppercase;
             
@@ -43,10 +43,9 @@
     .subtitulo1{
   color: #FFF;
   font-feature-settings: 'ss04' on;
-  font-family: Hubot-Sans;
   font-size: 88px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 74px;
   letter-spacing: -0.88px;
   text-transform: uppercase;
@@ -71,10 +70,9 @@
   
   color: rgba(255, 255, 255, 0.60);
   font-feature-settings: 'ss04' on;
-  font-family: Hubot-Sans;
   font-size: 88px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 74px; 
   letter-spacing: -0.88px;
   text-transform: uppercase;

@@ -1,6 +1,6 @@
 
 ######################## default configuration ####################
-baseURL = "https://code4dei.com"
+baseURL = "https://icphublatam.org"
 title = "Nativo Cripto"
 enableRobotsTXT = true
 DefaultContentLanguage = "es"
@@ -9,8 +9,6 @@ theme = "dd4w"
 # post pagination
 paginate = "8"
 
-# Este es el tag normal de analytics
-# googleAnalytics = ""
 # Este es el de google tag manager
 googleAnalytics = ""
 
@@ -32,11 +30,6 @@ home = ["HTML", "RSS", "JSON"]
 # CSS Plugins
 [[params.plugins.css]]
 link = "/plugins/bootstrap/css/bootstrap.min.css"
-[[params.plugins.css]]
-link = "/plugins/themefisher-font/themefisher-font.min.css"
-[[params.plugins.css]]
-link = "https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.css"
-
 
 # JS Plugins
 [[params.plugins.js]]
@@ -65,18 +58,12 @@ logo = "/images/logo-monochrome.svg"
 home = "Home"
 
 # Meta data
-description = """"""
+description = "Certificaciones, bootcamps y cursos de blockchain intensivos para impulsar tu carrera profesional y posicionarte como un referente."
 images = ["/images/blog/.jpg"]
-twitter_user = "RevistaSG"
-email = "eventos@sg.com.mx"
-author = "Software Guru"
+twitter_user = "@icphublatam"
+email = "hola@icphublatam.org"
+author = "ICP Hub Latam"
 
-start_date = "2023-07-27T09:00-06:00"
-end_date = "2023-07-27T17:00-06:00"
-
-
-
-disclaimer = """"""
 
 
 # Preloader

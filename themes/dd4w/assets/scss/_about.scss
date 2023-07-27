@@ -242,3 +242,17 @@ a.gitbook-link {
 	font-weight: 600; 
 	color: black !important;
 }
+
+
+.hero-responsive-button{
+
+
+	@media (max-width:600px) {
+		padding: 12px 14px; 
+		background-color:#ffffff; 
+		font-weight: 600; 
+		font-size: 12px;
+		color: black !important;
+	  }
+
+}

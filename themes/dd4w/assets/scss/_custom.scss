@@ -67,9 +67,35 @@ section.register p, section.swag p {
 
 
 .logo-b {
-	max-height: 50px;
-	@media (max-width:768px) {
-		height: 30px;
+	max-height: 70px;
+	margin-left: -100px;  
+
+
+	@media (max-width:1680px) {
+		height: 70px;
+		margin-left: -90px;  
+	  }
+
+
+	  @media (max-width:1535px) {
+		height: 90px;
+		margin-left: auto;  
+	  }
+
+	  @media (max-width:1380px) {
+		height: 70px;
+		margin-left: auto;  
+	  }
+
+	@media (max-width:789px) {
+		height: 40px;
+		margin-left: auto; 
+	  }
+}
+
+.nav-item{
+	@media (max-width:789px) {
+		display: none;
 	  }
 }
 

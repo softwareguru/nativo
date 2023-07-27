@@ -31,7 +31,23 @@
     font-style: normal;
     font-weight: 600;
     line-height: 44px;
+
+    @media (max-width:992px) {
+        font-size: 30px;
+        line-height: 44px;
+        }
+
+        @media (max-width:652px) {
+            font-size: 25px;
+            line-height: 38px;
+            }
+
+            @media (max-width:470px) {
+                font-size: 22px;
+                line-height: 26px;
+                }
 }
+
 
 
 .titulo-proceso, .subtitulo-proceso, .easy-peasy{
@@ -39,8 +55,32 @@
 font-family: Hubot-Sans;
 font-size: 27px;
 font-style: normal;
-font-weight: 400;
+font-weight: 600;
 line-height: 36px;
+
+@media (max-width:992px) {
+    font-size: 30px;
+    line-height: 44px;
+    }
+
+    @media (max-width:652px) {
+        font-size: 25px;
+        line-height: 38px;
+        }
+
+        @media (max-width:470px) {
+            font-size: 22px;
+            line-height: 26px;
+            }
+}
+
+.easy-peasy-sub{
+    color: #FFF;
+    font-family: Hubot-Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
 }
 
 .ruta-de-formacion >.titulo-ruta{
@@ -80,14 +120,22 @@ line-height: 36px;
 }
 
 .circulo-ruta{
+    display: flex;
+    width: 160px;
+    height: 160px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
     border-radius: 120px;
-border: 1px solid rgba(255, 255, 255, 0.20);
-background: #37333D;
+    border: 2px solid rgba(255, 255, 255, 0.20);
+    background: #37333D;
 }
 
 
 .circulo-ruta-item>p{
     margin-top: 20px;
+    width: 160px;
+    height: 30px;
     color: #FFF;
     text-align: center;
     font-family: Hubot-Sans;

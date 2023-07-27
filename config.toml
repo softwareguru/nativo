@@ -1,7 +1,7 @@
 
 ######################## default configuration ####################
 baseURL = "https://icphublatam.org"
-title = "Nativo Cripto"
+title = "ICP Hub Latam"
 enableRobotsTXT = true
 DefaultContentLanguage = "es"
 

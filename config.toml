@@ -1,7 +1,7 @@
 
 ######################## default configuration ####################
 baseURL = "https://code4dei.com"
-title = "Nativo Cripto"
+title = "Nativo Crypto"
 enableRobotsTXT = true
 DefaultContentLanguage = "es"
 

@@ -1,0 +1,96 @@
+
+.embajadores-colaboracion{
+    background: var(--linear-green-magenta, linear-gradient(135deg, #ED1E79 0%, #29ABE2 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+
+    @media (max-width:1309) {
+        font-size: 66px;
+          }
+      
+        @media (max-width:992px) {
+        font-size: 42px;
+        line-height: 44px;
+        }
+      
+        @media (max-width:475px) {
+        font-size: 32px;
+        line-height: 38px;
+        }
+}
+
+
+
+
+.embajadores-colaboracion-vinetas{
+    color: rgba(255, 255, 255, 0.60);
+
+font-size: 32px;
+font-weight: 600;
+line-height: 40px; /* 125% */
+
+@media (max-width:1309) {
+    font-size: 66px;
+      }
+  
+    @media (max-width:992px) {
+    font-size: 30px;
+    line-height: 38px;
+    }
+  
+    @media (max-width:475px) {
+    font-size: 28px;
+    line-height: 32px;
+    }
+}
+
+.subtitulo-embajadores-colaboracion{
+    color: #FFF;
+    font-weight: 400;
+    line-height: 44px; /* 183.333% */
+
+    p{
+        font-size: 24px;
+    }
+
+    li{
+        font-size: 20px;
+    }
+
+
+    p, li{
+        @media (max-width:1309) {
+            font-size: 20px;
+              }
+          
+            @media (max-width:992px) {
+            font-size: 20px;
+            line-height: 34px;
+            }
+          
+            @media (max-width:475px) {
+            font-size: 16px;
+            line-height: 32px;
+            }
+    }
+
+    
+}
+
+
+.alianza-universidades{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px; /* 125% */
+}
+
+
+.logos-universidades{
+
+}

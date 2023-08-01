@@ -91,7 +91,9 @@ section.hero {
 	align-self: end;
 	padding-right: 6em;
 
-
+    img {
+		width: 555px;
+	  }
 	//grid-area: 2 / 4 / 4 / 3; 
 
 	@media (max-width:1305px) {

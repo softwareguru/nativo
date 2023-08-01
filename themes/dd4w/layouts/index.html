@@ -2,6 +2,9 @@
 
 {{ $data := index .Site.Data }}
 
+
+<section class="fondo-estrellas">
+
 {{ partial "hero.html" . }}
 
 <!--{{ partial "registro.html" . }}-->
@@ -13,6 +16,8 @@
 <br><br>
 
 {{ partial "intro.html" . }}
+
+</section>
 
 {{ partial "curso.html" . }}
 
@@ -26,9 +31,9 @@
 
 <br><br>
 
-<!--{{ partial "embajadores.html" . }}
+{{ partial "embajadores.html" . }}
 
-<br><br>-->
+<br><br>
 
 {{ partial "amigos.html" . }}
 

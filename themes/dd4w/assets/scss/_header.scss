@@ -83,14 +83,20 @@
   
 
 
-html, body, .hero { height: 100%; margin: 0;   background-color: #1B1B1B; }
+html, body, .hero{ 
+  height: 100%; 
+  margin: 0;   
+  background-color: #1B1B1B; 
+}
 
 .hero {
   display: grid;
   grid-template-columns: 45% 1fr;
-  grid-template-rows: 1fr;  
+  grid-template-rows: 1fr;
+  background-image: url(/images/estrellas.png);
+	background-size: cover;
+	background-position: center;
 }
-
 
 .hero-bg .card{
   background-color: transparent;

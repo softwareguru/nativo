@@ -1,5 +1,13 @@
 // Estilos generales
 
+
+.fondo-estrellas{
+  background-image: url(/images/estrellas.png);
+	background-size: cover;
+	background-position: center;
+}
+
+
 .registro,
 .onboarding,
 .intro,
@@ -97,7 +105,7 @@
 
     // Seccion "DEMO" y "proceso" en fondo para items
 
-.seccion-demo,.seccion-proceso, .seccion-embajaroder{
+.seccion-demo,.seccion-proceso, .seccion-embajadores{
   margin-top: -240px; 
   border-radius: 54px;
   margin-left: 20px;

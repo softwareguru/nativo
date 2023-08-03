@@ -33,6 +33,10 @@
         padding-left: 60px;
 	}
   }
+
+
+
+
   
     .titulo{
     background-image: linear-gradient(rgb(86, 101, 249), rgb(255, 82, 210));
@@ -115,8 +119,45 @@
   background: var(--radial-blackz, radial-gradient(317.05% 141.42% at 0.00% 0%, #2C2B31 0%, #1313189a 100%));
 
   @include mobile {
-      margin-top: -90px; 
-    }
+    margin-top: -90px; 
+  }
+
+  .embajadores-bg{
+  background-image: url(/images/bg-embajadores.png);
+	background-size: cover;
+	background-position: center;
+  border-radius: 54px;
+  margin-left: -30px;
+  margin-right: 0px;
+  padding: 50px;
+
+	@media (max-width:745px) {
+  background-image: none;
+  border-radius: 0px;
+  margin-left: -50px;
+  margin-right: 0px;
+  margin-bottom: -20px;
+	}
+}
+
+.proceso-bg{
+  background-image: url(/images/fondo-proceso.png);
+	background-size: cover;
+	background-position: center;
+  border-radius: 54px;
+  margin-left: -30px;
+  margin-right: 0px;
+  padding: 50px;
+
+	@media (max-width:745px) {
+  background-image: none;
+  border-radius: 0px;
+  margin-left: -50px;
+  margin-right: 0px;
+  margin-bottom: -20px;
+	}
+}
+
 
 }
 

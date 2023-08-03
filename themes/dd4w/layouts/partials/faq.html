@@ -9,21 +9,108 @@
   
     <br>
   
-      <div class="accordion">
-      <input type="radio" name="toggle" class="accordion-toggle" checked />
-      <div class="accordion-header">Panel 1</div>
-      <div class="accordion-content">Contenido panel 1</div>
-      
-      
-      <input type="radio" name="toggle" class="accordion-toggle" />
-      <div class="accordion-header">Panel 2</div>
-      <div class="accordion-content">Contenido panel 2</div>
-      
-      
-      <input type="radio" name="toggle" class="accordion-toggle" />
-      <div class="accordion-header">Panel 3</div>
-      <div class="accordion-content">Contenido panel 3</div> 
-      </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+    .faq-collapse{
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .collapsible {
+      background-color: #1B1B1B;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      font-weight: 700;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 1.5em;
+    }
+    
+    .active, .collapsible:hover {
+      background-color: none;
+    }
+    
+    .collapsible:after {
+      content: '\002B';
+      color: white;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+    
+    .active:after {
+      content: "\2212";
+    }
+    
+    .content {
+      padding: 0 28px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      color: #ffffff;
+      font-size: 1.3em;
+    }
+    </style>
+
+    
+  <div class="faq-collapse">
+    <button class="collapsible">¿Cual es la diferencia de Internet Computer con otros ecosistemas blockchain?</button>
+    <div class="content">
+      <p>Internet Computer tiene algunos puntos que lo hacen resaltar de otros ecosistemas, mismos que resultan en una ventaja al momento de lanzar software enfocado en blockchain como:</p>
+      <li>Almacenamiento on-chain </li>
+      <li>Usuarios no necesitan de una wallet o token para usar DApps.</li>
+      <li>Tanto frontend como backend se pueden desplegar en la cadena de IC mediante Canisters.
+      </li>
+      <li>Los canisters representan una evolución de los smart contracts y se ejecutan dentro de un ambiente basado en WASM.</li>
+    </div>
+<br>
+    <button class="collapsible">¿Qué se necesita para aprender a desarrollar con Internet Computer?</button>
+    <div class="content">
+      <li>Internet Computer es muy versátil en el desarrollo, con tener conocimientos básicos de algún lenguaje como JS y conocimiento general de informática se puede iniciar a desarrollar en web3 con IC.</li>
+    </div>
+<br>
+    <button class="collapsible">¿Qué lenguaje de programación necesito para desarrollar en Internet Computer?</button>
+    <div class="content">
+      <p>Puede utilizarse cualquier lenguaje con soporte para compilar en formato .wasm (bytecode). Los lenguajes que cuentan oficialmente con un CDK (Canister Development Kit) son:</p>
+      <li>Motoko</li>
+      <li>Rust</li>
+      <li>Javascript/TypeScript</li>
+      <li>Python</li>
+    </div>
+<br>
+    <button class="collapsible">¿Qué es Motoko?</button>
+    <div class="content">
+      <li>Es un lenguaje de programación desarrollado exclusivamente para la blockchain de Internet Computer. Es un lenguaje potente que recuerda a JavaScript y Rust por su sintaxis. Es sencillo de aprender y cuenta con una gran documentación detrás.</li>
+    </div>
+<br>
+    <button class="collapsible">¿Puedo construir con Internet Computer si ya he desarrollado con Ethereum o alguna EVM usando solidity?</button>
+    <div class="content">
+      <li>Si, actualmente Internet Computer cuenta con una EVM llamada bitfinity además de tener también como protocolo una integración nativa con Ethereum para desarrollar sobre este ecosistema.</li>
+    </div>
+
+  </div>
+
   
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
+
   </section>
   

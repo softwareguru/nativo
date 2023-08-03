@@ -26,10 +26,11 @@
 
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      grid-gap: 40px;
+      grid-gap: 30px;
       justify-content: space-between;
       justify-items: center;
       align-items: center; 
+      padding: 25px;
       
       
       @media (max-width:957px) {
@@ -49,6 +50,10 @@
     border: 4px solid rgba(255, 255, 255, 0.15);
     background: #37333D;
     box-shadow:  0 0 0 5px rgba(255, 255, 255, 0.028);
+
+    img{
+      width: 300px;
+    }
     
     
 }
@@ -61,7 +66,7 @@
     line-height: 40px;
     letter-spacing: 0.48px;
     text-transform: uppercase;
-    width: 300px;
+    width: 275px;
 
     @media (max-width:1377px) {
 
